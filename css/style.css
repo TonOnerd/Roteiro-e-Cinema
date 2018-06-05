@@ -46,9 +46,31 @@ section img{
     margin-right: 45px;
     margin-top: -26px;
 }
-.textos p {
+ p {
     font-size: 20px;
 }
-.textos h1 {
-    font-size: 40px;
+h1 {
+    font-size: 30px;
+    text-align: center
+}
+footer {
+    background-color: black;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around; 
+    margin: -16px;
+    
+}
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+    align-items: center;
+    
+}
+footer ul a {
+    padding: 12px;
+}
+.btn{
+    width: 150px;
 }
