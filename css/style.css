@@ -1,3 +1,4 @@
+/* Css da nave de todas as paginas*/
 * {
     list-style: none;
     text-decoration: none;
@@ -5,12 +6,16 @@
 
 a {
     text-decoration: none;
+    list-style: none;
+}
+
+#links a {
     font-family: 'Fjalla One', sans-serif;
     color: white;
-}
-a:hover {
-    text-decoration: none; 
     list-style: none;
+    text-decoration: none;
+    align-items: center;   
+    padding: 13px;
 }
 
 nav {
@@ -28,19 +33,33 @@ nav {
 nav ul  {
     display: flex;
     justify-content: space-around;
-    margin-top: 5px;
+    margin-top: 50px;
     align-items: center;
-    
 }
-nav ul a {
-    padding: 12px;
-}
-.apresentacao{ 
+
+#apresentacao{ 
     display: flex;
     margin: 100px; 
+    text-decoration: none;
+    list-style: none;
+    color: black;
 }
-.apresentacao img {
+#apresentacao p {
+    font-size: 18px;
+}
+
+#apresentacao h1 {
+     font-size: 30px;
+    text-align: center  
+}
+
+#apresentacao img {
     width: 300px;
+}
+
+#dramaturgo img {
+    width: 300px;
+    margin-bottom: 40px;
 }
 .textos{
     display: flex;
@@ -49,13 +68,8 @@ nav ul a {
     margin-right: 45px;
     margin-top: -26px;
 }
- p {
-    font-size: 18px;
-}
-h1 {
-    font-size: 30px;
-    text-align: center
-}
+
+ 
 .sobreroteiro{
     display: flex;
     align-items: center;
