@@ -24,8 +24,8 @@ nav {
     display: flex;
     justify-content: space-around; 
     margin: -16px;
-    
 }   
+
 .logo{
     width: 120px;
 }
@@ -36,6 +36,7 @@ nav ul  {
     margin-top: 50px;
     align-items: center;
 }
+/* css da home  */
 
 #apresentacao{ 
     display: flex;
@@ -49,7 +50,7 @@ nav ul  {
 }
 
 #apresentacao h1 {
-     font-size: 30px;
+    font-size: 30px;
     text-align: center  
 }
 
@@ -57,29 +58,51 @@ nav ul  {
     width: 300px;
 }
 
-#dramaturgo img {
-    width: 300px;
-    margin-bottom: 40px;
-}
-.textos{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-right: 45px;
-    margin-top: -26px;
-}
-
- 
-.sobreroteiro{
+#video{
     display: flex;
     align-items: center;
     flex-direction: column;
+    color: black;
 }
-.sobreroteiro img {
+#video h1{
+    font-size: 30px;
+    text-align: center 
+}
+.video1{
+    height: 100%;
+    margin: 30px;
+    margin-bottom: 100px;
+}
+
+/* css acerte o alvo */
+#acerte{
+    display: flex;
+    flex-direction: column;
+    text-align: center ;
+    margin: 20px;
+    margin-bottom: 40px;
+    padding: 30px;
+    color: black;
+}
+#acerte h1 {
+    font-size: 30px;
+}
+/* css sobre roteiro */
+#sobreroteiro{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+}
+#sobreroteiro img {
     width: 400px;
-    margin: 60px;
-      
+    margin: 60px;  
 }
+sobreroteiro h1{
+    font-size: 30px;
+}
+/* css do footer */
 footer {
     background-color: black;
     text-transform: uppercase;
