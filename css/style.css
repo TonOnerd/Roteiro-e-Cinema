@@ -63,15 +63,13 @@ nav ul  {
     align-items: center;
     flex-direction: column;
     color: black;
+    margin: 30px;
+    margin-bottom: 100px;
 }
+
 #video h1{
     font-size: 30px;
     text-align: center 
-}
-.video1{
-    height: 100%;
-    margin: 30px;
-    margin-bottom: 100px;
 }
 
 /* css acerte o alvo */
@@ -81,8 +79,13 @@ nav ul  {
     text-align: center ;
     margin: 20px;
     margin-bottom: 40px;
-    padding: 30px;
+    padding: 80px;
     color: black;
+    align-items: center;
+}
+#acerte img {
+    width: 50%;
+    height: 50%;
 }
 #acerte h1 {
     font-size: 30px;
@@ -101,6 +104,29 @@ nav ul  {
 }
 sobreroteiro h1{
     font-size: 30px;
+}
+
+/*css sala de roteiristas*/
+#pessoas{
+    display: flex;
+    padding: 125px;
+}
+#pessoas img {
+    width: 300px;
+    height: 300px;
+}
+/*css produções*/
+#producoes{
+    display: flex;
+    padding: 125px;
+    flex-direction: column;
+    text-align: center ;
+    align-items: center;
+}
+#producoes img{
+    width: 30%;
+    height: 20%;
+    
 }
 /* css do footer */
 footer {
