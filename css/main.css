@@ -1,0 +1,12 @@
+@media  (max-width: 768px){
+ nav {
+    display: flex;
+    margin:-16px;
+ }   
+ .logo{
+    width: 110px;
+ }
+ nav ul{
+     padding: 5px;
+ }
+}

@@ -2,6 +2,7 @@
 * {
     list-style: none;
     text-decoration: none;
+    
 }
 
 a {
@@ -109,19 +110,41 @@ sobreroteiro h1{
 /*css sala de roteiristas*/
 #pessoas{
     display: flex;
-    padding: 125px;
+    flex-direction: row;
+    padding: 80px;
 }
 #pessoas img {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
+    padding: 80px;
+    text-align: center;
+}
+#pessoas p {
+    padding: 30px;
+}
+.cris{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.anderson{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.patricia{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 /*css produções*/
 #producoes{
     display: flex;
-    padding: 125px;
     flex-direction: column;
     text-align: center ;
     align-items: center;
+    margin: 40px;
+    
 }
 #producoes img{
     width: 30%;
@@ -134,7 +157,8 @@ footer {
     text-transform: uppercase;
     display: flex;
     justify-content: space-around; 
-    margin: -16px; 
+   
+   
 }
 footer ul {
     display: flex;
