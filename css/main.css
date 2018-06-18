@@ -1,12 +1,104 @@
-@media  (max-width: 768px){
- nav {
+@media (max-width: 768px) {
+    
+    nav {
+        max-height: 100%;
+        display: flex,
+}
+#links a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;   
+    font-size: 11px;
+   
+}
+.logo{
+    width: 60px;
+    margin:40px;
+}
+#apresentacao{
     display: flex;
-    margin:-16px;
- }   
- .logo{
-    width: 110px;
- }
- nav ul{
-     padding: 5px;
- }
+    align-items: center;
+    flex-direction: column;
+    
+}
+.texto{
+    width: 400px;
+}
+#textroteirista{
+    text-align: center;
+    margin: 20px;
+}
+#pessoas img{
+    height: 150px;
+    width: 150px;
+    padding: 20px;
+}
+#pessoas p {
+    color: black;
+    width: 100px;
+}
+#textroteirista p{
+    color: black;
+    margin: 12px;
+    padding: 12px;
+    margin-right: 12px;
+    margin-left: 12px;
+    text-align: center;
+}
+}
+@media screen and (max-width: 360px) {
+    nav {
+        max-height: 100%;
+        display: flex;
+}
+.logo{
+    width: 50px;
+    margin:50px;
+    height: 50px;
+}
+#links a {
+    color: white;
+    list-style: none;
+    text-decoration: none;  
+    display: none;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+nav {
+    background-color: black;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around; 
+}  
+
+#apresentacao p {
+    font-size: 15px;
+}
+
+#apresentacao h1 {
+    font-size: 20px;
+    text-align: center  
+} 
+#apresentacao img {
+    width: 200px;
+}
+#video h1{
+    font-size: 20px;
+    text-align: center;
+}
+#video1 {
+    width: 200px;
+    height: 200px;
+}
+#acerte h1{
+    font-size: 20px;
+}
+#acerte p {
+    width: 250px;
+}
 }
