@@ -9,13 +9,23 @@ a {
     text-decoration: none;
     list-style: none;
 }
-
+/* #showme {
+    display: none;
+}
+#links:hover .showme {
+    display: block;
+}
+#links:hover .ok{
+    display: none;
+} */
 #links a {
     color: white;
     list-style: none;
     text-decoration: none;
     align-items: center;   
     padding: 13px;
+    /* visibility: hidden; */
+
 }
 
 nav {
@@ -24,10 +34,12 @@ nav {
     display: flex;
     justify-content: space-around; 
     margin: -16px;
+
 }   
 
 .logo{
-    width: 120px;
+    width: 80px;
+    margin-right: -22px;
 }
 
 nav ul  {
@@ -35,15 +47,19 @@ nav ul  {
     justify-content: space-around;
     margin-top: 50px;
     align-items: center;
+    font-size: 7px;
 }
 /* css da home  */
 
 #apresentacao{ 
     display: flex;
-    margin: 100px; 
+    margin: 30px; 
     text-decoration: none;
     list-style: none;
     color: black;
+    flex-direction: column;
+    align-items: center;
+   
 }
 #apresentacao p {
     font-size: 18px;
@@ -55,7 +71,8 @@ nav ul  {
 }
 
 #apresentacao img {
-    width: 300px;
+    width: 250px;
+    height: 200px;;
 }
 
 #video{
@@ -68,7 +85,7 @@ nav ul  {
 }
 
 #video h1{
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -77,18 +94,18 @@ nav ul  {
     display: flex;
     flex-direction: column;
     text-align: center ;
-    margin: 20px;
-    margin-bottom: 40px;
-    padding: 80px;
+    /* margin: 20px;
+    margin-bottom: 40px; */
+    padding: 39px;
     color: black;
     align-items: center;
 }
 #acerte img {
-    width: 50%;
-    height: 50%;
+    width: 93%;
+    /* height: 50%; */
 }
 #acerte h1 {
-    font-size: 30px;
+    font-size: 25px;
 }
 /* css sobre roteiro */
 #sobreroteiro{
@@ -99,20 +116,23 @@ nav ul  {
     color: black;
 }
 #sobreroteiro img {
-    width: 400px;
+    width: 281px;
     margin: 60px;  
 }
 sobreroteiro h1{
-    font-size: 30px;
+    font-size: 20px;
 }
-.texto{
+.texto {
+    padding: 29px;
+}
+/* .texto{
     width: 1000px;
-}
+} */
 /*css sala de roteiristas*/
 #pessoas{
     display: flex;
-    flex-direction: row;
-    padding: 80px;
+    flex-direction: column;
+    padding: 28px;
     align-items: center;
 }
 #pessoas img {
@@ -125,12 +145,12 @@ sobreroteiro h1{
 #textroteirista h3{
     color: black;
     text-align: center;
-    margin: 30px;
+    margin: 10px;
 }
 #pessoas p {
     padding: 30px;
 }
-.cris{
+/* .cris{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -144,7 +164,7 @@ sobreroteiro h1{
     display: flex;
     flex-direction: column;
     text-align: center;
-}
+} */
 
 /*css produções*/
 #producoes{
@@ -156,7 +176,7 @@ sobreroteiro h1{
     
 }
 #producoes img{
-    width: 30%;
+    width: 88%;
     height: 20%;
     
 }
@@ -165,18 +185,36 @@ footer {
     background-color: black;
     text-transform: uppercase;
     display: flex;
-    justify-content: space-around; 
-   
-   
+    /* justify-content: space-around;  */
+}
+footer logo img{
+    width: 57px;
+    /* margin: 12px; */
+    height: 55px;
 }
 footer ul {
+    display: flex;
+    flex-direction: column;
+}
+footer li {
+    font-size: 12px;
+    margin: 12px;
+
+}
+.lista{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}  
+
+/* footer ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 footer ul a {
     padding: 12px;
-}
+} */
 
 
 
