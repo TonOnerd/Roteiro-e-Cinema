@@ -9,15 +9,7 @@ a {
     text-decoration: none;
     list-style: none;
 }
-/* #showme {
-    display: none;
-}
-#links:hover .showme {
-    display: block;
-}
-#links:hover .ok{
-    display: none;
-} */
+
 #links a {
     color: white;
     list-style: none;
@@ -25,21 +17,21 @@ a {
     align-items: center;   
     padding: 13px;
     /* visibility: hidden; */
-
 }
 
 nav {
     background-color: black;
     text-transform: uppercase;
     display: flex;
-    justify-content: space-around; 
+    /* justify-content: space-around;  */
     margin: -16px;
-
 }   
 
 .logo{
-    width: 80px;
-    margin-right: -22px;
+    width: 70px;
+    margin: 15px;
+    margin-left: 12px;
+
 }
 
 nav ul  {
@@ -49,6 +41,7 @@ nav ul  {
     align-items: center;
     font-size: 7px;
 }
+
 /* css da home  */
 
 #apresentacao{ 
@@ -59,7 +52,6 @@ nav ul  {
     color: black;
     flex-direction: column;
     align-items: center;
-   
 }
 #apresentacao p {
     font-size: 18px;
@@ -138,34 +130,25 @@ sobreroteiro h1{
 #pessoas img {
     width: 200px;
     height: 200px;
-    padding: 80px;
+    padding: 40px;
     text-align: center;
 }
-
+#textroteirista{
+    padding: 14px;
+}
 #textroteirista h3{
     color: black;
     text-align: center;
-    margin: 10px;
+    margin: 15px;
+}
+#textroteirista img{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
 }
 #pessoas p {
-    padding: 30px;
+    padding: 20px;
 }
-/* .cris{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-.anderson{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-.patricia{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-} */
-
 /*css produções*/
 #producoes{
     display: flex;
@@ -173,25 +156,24 @@ sobreroteiro h1{
     text-align: center ;
     align-items: center;
     margin: 40px;
-    
 }
 #producoes img{
     width: 88%;
     height: 20%;
-    
 }
 /* css do footer */
 footer {
     background-color: black;
     text-transform: uppercase;
     display: flex;
-    /* justify-content: space-around;  */
+    padding: 7px;
 }
-footer logo img{
-    width: 57px;
-    /* margin: 12px; */
-    height: 55px;
+.logofooter{
+    height: 80px;
+    margin-top: 30px;
+    margin-left: 15px;
 }
+
 footer ul {
     display: flex;
     flex-direction: column;
@@ -204,17 +186,15 @@ footer li {
 .lista{
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 0px;
+    margin-right: 40px;
 }  
 
-/* footer ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
 footer ul a {
     padding: 12px;
-} */
+}
+
+
 
 
 

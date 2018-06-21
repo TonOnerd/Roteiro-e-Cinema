@@ -2,34 +2,116 @@
     nav {
         max-height: 100%;
         display: flex;
-        padding: 20px;
+        padding: 1px;
+        justify-content: space-around;
 }
-nav ul {
-    margin-top: 30px;
-}
+
 #links a {
     color: white;
     list-style: none;
     text-decoration: none;
     align-items: center;   
-    padding: 15px;
-    font-size: 15px;
+    font-size: 17px;
 }
 .logo{
-    width: 110px;
-    margin-right: -22px;
+    width: 90px;
+}
+
+.cris p{
+    text-align: center;
+    color: black;
+    font-size: 18px;
 }
 #apresentacao{
     display: flex;
     flex-direction: row;
     margin: 80px;
+    padding: 15px;
+}
+apresentacao h1{
+    font-size: 15px;
 }
 #apresentacao img {
-    width: 350px;
-    height: 300px;;
+    width: 400px;
+    height: 350px;;
+}
+#producoes img{
+    width: 300px;
 }
 #acerte img {
-    width: 20px;
+    width: 50%;
+    height: 50%;
+}
+#video1{
+    width: 500px;
+    height: 300px;
+}
+#video h1{
+    font-size: 29px;
+}
+.cris{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
 
+#textroteirista img {
+    height: 200px;
+    width: 260px;
+}
+#textroteirista p{
+    padding: 5px;
+    font-size: 20px;
+    color: black;
+}
+#producoes p{
+    font-size: 18px;
+    color: black;
+}
+.logofooter{
+    height: 80px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+#sobreroteiro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+}
+#sobreroteiro img {
+    width: 500px;
+}
+sobreroteiro h1{
+    margin: -6px;
+}
+footer{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.texto p{
+    padding: 20px;
+    font-size: 18px;
+}
+footer ul {
+    display: flex;
+    flex-direction: row;
+}
+footer li {
+    font-size: 15px;
+}
+.lista{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}  
+.logofooter{
+    height: 80px;
+    margin-left: 169px;
+}
+.email{
+    margin-top: 50px;
 }
 }
