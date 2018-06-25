@@ -16,7 +16,7 @@ a {
     text-decoration: none;
     align-items: center;   
     padding: 13px;
-    /* visibility: hidden; */
+    
 }
 
 nav {
@@ -33,13 +33,17 @@ nav {
     margin-left: 12px;
 
 }
+#btn{
+    width: 100px;
+    color: black;
+}
 
 nav ul  {
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
+    margin-top: 30px;
     align-items: center;
-    font-size: 7px;
+    font-size: 15px;
 }
 
 /* css da home  */

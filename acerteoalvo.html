@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,31 +9,39 @@
     <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
-
 <body>
     <header data-role="content">
-        <nav>
-            <a class="nav-logo" href="index.html">
-                <img class="logo" src="img/Logomarca.jpg" alt="Logo site">
-            </a>
-            <div id="links">
-                <ul>
-                    <li>
-                        <a href="acerteoalvo.html" data-transition="flip">ACERTE O ALVO ROTEIRISTA</a>
-                    </li>
-                    <li>
-                        <a href="sobreroteiro.html" data-transition="flip">SOBRE ROTEIRO </a>
-                    </li>
-                    <li>
-                        <a href="salaroterista.html" data-transition="flip">SALA DE ROTEIRISTAS</a>
-                    </li>
-                    <li>
-                        <a href="producoes.html" data-transition="flip"="">PRÉ-PRODUÇÕES</a>
-                    </li>
-                </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="nav-logo" href="index.html">
+                    <img src="img/Logomarca.jpg" alt="Logo Roteiro e Cinema">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarRoteiro" aria-controls="navbarRoteiro"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarRoteiro">
+                    <div class="navbar-nav ml-auto">
+                        <ul>
+                            <li>
+                                <a class="nav-item nav-link" href="acerteoalvo.html" data-transition="flip">ACERTE O ALVO ROTEIRISTA</a>
+                            </li>
+                            <li>
+                                <a class="nav-item nav-link" href="sobreroteiro.html" data-transition="flip">SOBRE ROTEIRO</a>
+                            </li>
+                            <li>
+                                <a class="nav-item nav-link" href="salaroteirista.html" data-transition="flip">SALA DE ROTEIRISTAS</a>
+                            </li>
+                            <li>
+                                <a class="nav-item nav-link" href="producoes.html" data-transition="flip">PRÉ-PRODUÇÕES</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </nav>
     </header>

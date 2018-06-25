@@ -1,22 +1,19 @@
-@media (min-width: 1280px) {
-    nav {
-        max-height: 100%;
-        display: flex;
-        padding: 1px;
-        justify-content: space-around;
+.nav{
+    display: flex;
+    flex-direction: row;
 }
-
-#links a {
-    color: white;
-    list-style: none;
-    text-decoration: none;
-    align-items: center;   
-    font-size: 17px;
+.nav-logo img{
+    height: 73px;
+    width: 81px;
 }
-.logo{
-    width: 90px;
+.button {
+    border: 2px solid white;
+    border-radius: 15px;
+    text-align: center;
+  }
+.navbar-toggler-icon{
+    width: 100px;
 }
-
 .cris p{
     text-align: center;
     color: black;
