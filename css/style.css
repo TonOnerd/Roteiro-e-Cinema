@@ -4,163 +4,384 @@
     text-decoration: none;
     font-family:'Arimo', sans-serif;
 }
-#logo img{
-    width: 100px;
-    height: 100px;
+
+* {
+  list-style: none;
+  text-decoration: none;
+
 }
 
-  .navbar {
-    font-family: sans-serif;
-    height: 113px;
-    background-color: black;
-    font-size: 15px;
-    display: flex;
-    justify-content: space-around;
-  }
+a {
+  text-decoration: none;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  margin: 0;
+}
+
+p , h3 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+h3 {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 3em;
+  color: black;
+}
+
+/* NAVBAR */
+
+nav {
+  background-color: black;
+  min-height: 16vh;
+  text-transform: uppercase;
+  padding-right: 5px;
+  }   
   
-  .navbar > ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    height: 100%;
-  }
-  
-  .navbar .navbar-button > a {
-    padding: 0 12px;
-  }
-  
-  .navbar .navbar-button:hover {
-    background-color: rgba(0, 0, 0, 0.25);
-  }
-  
-  .navbar .navbar-item a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    height: 100%;
-    color: white;
-  }
-  
-  .navbar .dropdown-content {
-    padding: 5px 0;
-    list-style: none;
-    background-color: white;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
-    border: 1px solid rgba(0, 0, 0, 0.15);
-  }
-  
-  .navbar .dropdown-content li {
-    font-size: 14px;
-  }
-  
-  .navbar .dropdown-content li:hover {
-    background-color: #2780e3;
-  }
-  
-  .navbar .dropdown-content a {
-    color: #333333;
-    justify-content: flex-start;
-  }
-  
-  .navbar .dropdown-content a:hover {
-    color: white;
-  }
-  
-  .navbar .navbar-dropdown > a:after {
-    content: "";
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 5px solid white;
-    margin-left: 7px;
-  }
-  
-  .navbar .document-title-container {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    padding-left: 10px;
-  }
-  
-  .navbar .document-title-input {
-    background-color: inherit;
-    border: none;
-    font-size: inherit;
-    color: white;
-    padding: 5px 7px 2px 7px;
-    outline: none;
-    width: 10em;
-  }
-  
-  .navbar .document-title-input:hover {
-    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-    margin-bottom: -2px;
-  }
-  
-  .navbar .document-title-input:focus {
-    border-bottom: 2px solid rgba(255, 255, 255, 0.8);
-    margin-bottom: -2px;
+  .navbar-dark .navbar-nav .nav-link {
+      color: white;
+      text-decoration: none;
+      font-family: 'Fjalla One', sans-serif;
   }
 
-  #apresentacao{
+  .navbar-dark .navbar-nav .nav-link:hover {
+      color: white; 
+      /* background-color: #800724; */
+      
+  }
+       
+  .nav-logo {
+      width: 50%;
+  }
+  
+  .nav-logo img {
+      width: 120px;
+  }
+/* css da home */
+#roteiro{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+}
+#acerteoalvo{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+}
+#salaroteirista{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+}
+#producoes{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+}
+.button {
+  border: 2px solid white;
+  border-radius: 15px;
+  text-align: center;
+  background-color: #000000;
+}
+
+.btn {
+    padding-top: 15px;
+}
+
+.btn a {
+  color: white;
+  font-size: 14px;
+  font-family: 'Nunito', sans-serif;
+  padding: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#roteiro .btn a:hover {
+  color: white;
+  background-color: black; 
+  transition: ease-in 0.3s;
+}
+
+#acerteoalvo .btn a:hover {
+  color: white;
+  background-color: black; 
+  transition: ease-in 0.3s;
+}
+
+#salaroteirista .btn a:hover {
+  color: white;
+  background-color: black; 
+  transition: ease-in 0.3s;
+}
+#producoes .btn a:hover {
+  color: white;
+  background-color: black; 
+  transition: ease-in 0.3s;
+}
+/* PARALLAX */
+
+#roteiro .parallax {
+  background-image: url('../img/imgaacerteoalvo.jpg');
+  min-height: 500px;
+  background-size: cover;
+  background-attachment: scroll;
+
+}
+ 
+#roteiro .parallax-content > p {
+  font-family: 'Nunito', sans-serif;
+  color: black;
+  text-transform: none;
+}
+
+/* PARALLAX SALAROTEIRISTA */
+#salaroteirista .parallax-sarau {
+  background-image: url('../img/dramaturgo.jpg');
+  min-height: 500px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#atuacao .parallax-content-atuacao > p {
+  font-family: 'Nunito', sans-serif;
+ color: white;
+ text-transform: none;
+}
+/* PARALLAX ACERTE O ALVO */
+
+#acerteoalvo .parallax-atuacao {
+  background-image: url('../img/oqueeroteiro.jpg');
+  min-height: 500px;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#atuacao .parallax-content-atuacao > p {
+  font-family: 'Nunito', sans-serif;
+ color: white;
+ text-transform: none;
+}
+/* PARALLAX PRÉ PRODUÇOES */
+#producoes .parallax-pro {
+  background-image: url('../img/producoes.jpg');
+  min-height: 500px;
+  background-attachment: fixed; 
+  background-size: cover;
+}
+#sarau .parallax-content-producao > p {
+  font-family: 'Nunito', sans-serif;
+ color: white;
+ text-transform: none;
+}
+
+#sobreroteiro{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+}
+#acerte{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+}
+#acerte img{
+ width: 100%;
+ height: 400px;
+}
+#textroteirista{
+  margin: 20px;
+ }
+ #textroteirista p{
+  color: black;
+ }
+ #producoes1 img{
+  width: 300px;
+  height: 400px;
+ }
+ #producoes1{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+  align-items: center;
+ }
+ .cris{
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+ }
+ .anderson{
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+ }
+ .paty{
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+ }
+ #textroteirista p{
+  margin-top: 120px;
+  color: #000000;
+ }
+ #textroteirista img{
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+  padding: 12px;
+ }
+ 
+/* css footer */
+footer{
+  background-color: #000000;
+  width: 100%;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Fjalla One', sans-serif;
+  padding-top: 9px;
+}
+
+li {
+  align-items: left;
+  margin-bottom: 10px;
+  list-style: none;
+}
+
+.lista ul li {
+  color: white;
+}
+.fbInsta {
+  padding-left: 25%;
+}
+.logo-footer{
+  text-align: center;
+}
+.logo-footer  img {
+  width: 120px;
+}
+
+.lista > li {
+  color: #f4c70c;
+}
+
+.lista a{
+  color: white;
+  text-decoration: none;
+}
+
+.rodape1 a {
+  text-decoration: none;
+  color: white;   
+}
+
+.rodape1  a:hover {
+  /* background-color: #800724; */
+  padding: 2px 0;
+}
+/* MEDIAQUERY==============================*/
+@media (max-width:750px) {
+  .logo-footer  img {
+      width: 140px;
+      padding-left: 30px;
+  }
+  #roteiro .parallax {
+    background-image: url('../img/imgaacerteoalvo.jpg');
+    min-height: 100px;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+  #textroteirista p{
+    margin-top: 50px;
+    color: #000000;
+   }
+  #salaroteirista .parallax-sarau {
+    background-image: url('../img/dramaturgo.jpg');
+    min-height: 100px;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  #acerteoalvo .parallax-atuacao {
+    background-image: url('../img/oqueeroteiro.jpg');
+    min-height: 100px;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+
+  #producoes .parallax-pro {
+    background-image: url('../img/producoes.jpg');
+    min-height: 100px;
+    background-attachment: scroll; 
+    background-size: cover;
+  }
+  #textroteirista img{
+    width: 250px;
+    height: 200px;
+    margin-top: 10px;
+  align-items: center;
+   }
+  #acerte img {
+    height: 200px;
+  }
+  .cris {
     display: flex;
     flex-direction: column;
-    margin: 33px;
-    align-items: center;
-  }
-  #apresentacao img{
-  width: 295px;
-  
-  }
-  #apresentacao h1 {
-    color: black;
-    font-size: 25px;
-    text-align: center;
-  }
-  #apresentacao p {
-    color: black;
-    font-size: 15px;
-
-  }
-  #video h1{
-    font-size: 30px;
-    color: black;
-    text-align: center;
-  }
-  #video{
+    margin-top: 5px;
+   }
+   .paty {
     display: flex;
     flex-direction: column;
-  }
-  footer{
+    margin-top: 5px;
+   }
+   .anderson{
     display: flex;
-    /* justify-content: space-around; */
-    list-style: none;
-    text-decoration: none;
-    background-color: black;
-
+    flex-direction: column;
+    margin-top: 5px;
+   }
+   
+  p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 17px;
+    color: black;
   }
-  footer li img{
-    width: 50px;
-    height: 40px;
-    margin-left: 18px;
-    
-  }
-  footer ul{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-  }
-  footer ul li{
-    padding: 26px;
-  }
-  footer p{
-    color: white;
-    padding: 19px;
+  h3 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
   }
 
-  footer img{
-    width: 100px;
-    height: 100px;
+  footer {
+      flex-direction: column;
+      text-align: center;
+      width: 100%;  
+      padding-right: 11%;
+
   }
+  #roteiro .parallax {
+      background-position: unset;
+  }
+  .arrow-up img {
+      left: 0;
+}
+.fbInsta {
+ padding-right: 35%;
+  }
+}
