@@ -5,12 +5,6 @@
     font-family:'Arimo', sans-serif;
 }
 
-* {
-  list-style: none;
-  text-decoration: none;
-
-}
-
 a {
   text-decoration: none;
   font-family: 'Fjalla One', sans-serif;
@@ -135,11 +129,12 @@ nav {
 /* PARALLAX */
 
 #roteiro .parallax {
-  background-image: url('../img/imgaacerteoalvo.jpg');
-  min-height: 500px;
-  background-size: cover;
-  background-attachment: scroll;
-
+  background-image: url('../img/imgacerteoalvo.jpg');
+  min-height: 400px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed ; 
+   
 }
  
 #roteiro .parallax-content > p {
@@ -151,7 +146,7 @@ nav {
 /* PARALLAX SALAROTEIRISTA */
 #salaroteirista .parallax-sarau {
   background-image: url('../img/dramaturgo.jpg');
-  min-height: 500px;
+  min-height: 400px;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -165,7 +160,7 @@ nav {
 
 #acerteoalvo .parallax-atuacao {
   background-image: url('../img/oqueeroteiro.jpg');
-  min-height: 500px;
+  min-height: 400px;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -177,13 +172,16 @@ nav {
 }
 /* PARALLAX PRÉ PRODUÇOES */
 #producoes .parallax-pro {
-  background-image: url('../img/producoes.jpg');
+  background-image: url('../img/sinal\ vermelho.jpg');
   min-height: 500px;
-  background-attachment: fixed; 
-  background-size: cover;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed ; 
+  
+  
 }
 #sarau .parallax-content-producao > p {
-  font-family: 'Nunito', sans-serif;
+ font-family: 'Nunito', sans-serif;
  color: white;
  text-transform: none;
 }
@@ -193,6 +191,9 @@ nav {
   flex-direction: column;
   text-align: center;
   margin: 20px;
+}
+.texto{
+  text-align: center; 
 }
 #acerte{
   display: flex;
@@ -206,10 +207,10 @@ nav {
 }
 #textroteirista{
   margin: 20px;
+  display: flex;
+  align-items: center;
  }
- #textroteirista p{
-  color: black;
- }
+
  #producoes1 img{
   width: 300px;
   height: 400px;
@@ -223,17 +224,17 @@ nav {
  }
  .cris{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 20px;
  }
  .anderson{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 20px;
  }
  .paty{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 20px;
  }
  #textroteirista p{
@@ -242,11 +243,22 @@ nav {
  }
  #textroteirista img{
   width: 300px;
-  height: 300px;
+  height: 220px;
   margin-top: 20px;
   padding: 12px;
+  display: flex;
+  align-items: center;
  }
- 
+ #intimos img{
+  width: 60%;
+  height: 60%;
+ }
+ #intimos{
+   margin: 40px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
 /* css footer */
 footer{
   background-color: #000000;
@@ -303,31 +315,35 @@ li {
       padding-left: 30px;
   }
   #roteiro .parallax {
-    background-image: url('../img/imgaacerteoalvo.jpg');
-    min-height: 100px;
-    background-size: cover;
+    background-image: url('../img/imgacerteoalvo.jpg');
+    min-height: 163px;
+    /* background-size: cover; */
     background-attachment: scroll;
   }
   #textroteirista p{
     margin-top: 50px;
     color: #000000;
    }
+   #intimos img{
+    width: 130%;
+    height: 100%;
+   }
   #salaroteirista .parallax-sarau {
     background-image: url('../img/dramaturgo.jpg');
-    min-height: 100px;
+    min-height: 163px;
     background-attachment: scroll;
     background-size: cover;
   }
   #acerteoalvo .parallax-atuacao {
     background-image: url('../img/oqueeroteiro.jpg');
-    min-height: 100px;
+    min-height: 163px;
     background-attachment: scroll;
     background-size: cover;
   }
 
   #producoes .parallax-pro {
-    background-image: url('../img/producoes.jpg');
-    min-height: 100px;
+    background-image: url('../img/sinal\ vermelho.jpg');
+    min-height: 163px;
     background-attachment: scroll; 
     background-size: cover;
   }
@@ -337,6 +353,12 @@ li {
     margin-top: 10px;
   align-items: center;
    }
+   #textroteirista {
+    margin: 71px;
+    display: flex;
+    flex-direction: column;
+   }
+   
   #acerte img {
     height: 200px;
   }
@@ -344,6 +366,7 @@ li {
     display: flex;
     flex-direction: column;
     margin-top: 5px;
+    
    }
    .paty {
     display: flex;
@@ -374,6 +397,10 @@ li {
       width: 100%;  
       padding-right: 11%;
 
+  }
+  footer ul{
+    margin-top: 13px;
+    margin-left: 20px;
   }
   #roteiro .parallax {
       background-position: unset;
