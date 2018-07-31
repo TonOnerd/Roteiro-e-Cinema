@@ -129,7 +129,7 @@ nav {
 /* PARALLAX */
 
 #roteiro .parallax {
-  background-image: url('../img/imgacerteoalvo.jpg');
+  background-image: url('../img/acerteoalvo2.jpg');
   min-height: 400px;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -145,7 +145,7 @@ nav {
 
 /* PARALLAX SALAROTEIRISTA */
 #salaroteirista .parallax-sarau {
-  background-image: url('../img/dramaturgo.jpg');
+  background-image: url('../img/quemsomos.jpeg');
   min-height: 400px;
   background-attachment: fixed;
   background-size: cover;
@@ -250,8 +250,9 @@ nav {
   align-items: center;
  }
  #intimos img{
-  width: 60%;
-  height: 60%;
+  width: 33%;
+  margin:22px;
+ 
  }
  #intimos{
    margin: 40px;
@@ -315,7 +316,7 @@ li {
       padding-left: 30px;
   }
   #roteiro .parallax {
-    background-image: url('../img/imgacerteoalvo.jpg');
+    background-image: url('../img/acerteoalvo2.jpg');
     min-height: 163px;
     /* background-size: cover; */
     background-attachment: scroll;
@@ -325,11 +326,11 @@ li {
     color: #000000;
    }
    #intimos img{
-    width: 130%;
-    height: 100%;
+    width: 90%;
+
    }
   #salaroteirista .parallax-sarau {
-    background-image: url('../img/dramaturgo.jpg');
+    background-image: url('../img/quemsomos.jpeg');
     min-height: 163px;
     background-attachment: scroll;
     background-size: cover;
@@ -348,8 +349,8 @@ li {
     background-size: cover;
   }
   #textroteirista img{
-    width: 250px;
-    height: 200px;
+    width: 220px;
+    height: 180px;
     margin-top: 10px;
   align-items: center;
    }
@@ -367,6 +368,10 @@ li {
     flex-direction: column;
     margin-top: 5px;
     
+   }
+  #producoes1 img{
+    margin: 20px;
+
    }
    .paty {
     display: flex;
